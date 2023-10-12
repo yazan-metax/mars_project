@@ -36,3 +36,10 @@ The first line of input is the upper-right coordinates of the plateau, the lower
 
 - [`rovers_utils.c`](rovers_utils.c) - in this file i added all the halper functions are needed by the main function in the `rovers.c` file.
 - [`rovers.h`](rovers.h) - this file has all the headers and the typedef structure that are necessary for the program to work.
+
+## note📝 :
+- in case the orientation and the instructions are given to the rover are lowcase letters, i added 2 functions in [`rovers_utils.c`](rovers_utils.c) file, that help to covert them into uppercase letter before calling the `processInstructions()` function to process them.
+
+
+
+
