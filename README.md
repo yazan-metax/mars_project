@@ -36,7 +36,7 @@ The plateau is represented as a grid, and each rover has a position and heading.
 - First line: Upper-right coordinates of the plateau.
 - Subsequent lines: Rover information in two lines - position and instruction set.
 - ### Sequential Execution:
-Rovers are processed one after the other. The second rover starts after the first one finishes.
+- Rovers are processed one after the other. The second rover starts after the first one finishes.
 - ### Output Format:
 - Final coordinates and heading of each rover after executing instructions.
 # the file structure for this project will be as following:
