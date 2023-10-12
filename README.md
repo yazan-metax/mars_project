@@ -56,6 +56,11 @@ The plateau is represented as a grid, and each rover has a position and heading.
 ## note📝 :
 - in case the orientation and the instructions are given to the rover are lowcase letters, i added 2 functions in [`rovers_utils.c`](rovers_utils.c) file, that help to covert them into uppercase letter before calling the `processInstructions()` function to process them.
 
+## compilation😎.
+to compile this program you can use `C` compiler commands like `cc` or `gcc`
+- gcc [`rovers.c`](rovers.c) [`rovers_utils.c`](rovers_utils.c)
+- then run the default executable file:
+./a.out
 
-
+## hope you find this project helpful 🙂:)
 
