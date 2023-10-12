@@ -28,13 +28,13 @@ NASA is deploying robotic rovers on a rectangular plateau on Mars.
 Rovers need to be navigated using a series of instructions to capture the surrounding terrain.
 The plateau is represented as a grid, and each rover has a position and heading.
 - ### Coordinate System:
-The plateau is defined by upper-right coordinates. Lower-left coordinates are assumed to be (0,0).
-A rover's position is represented by (x, y) coordinates and a cardinal compass point (N, S, E, W).
+- The plateau is defined by upper-right coordinates. Lower-left coordinates are assumed to be (0,0).
+- A rover's position is represented by (x, y) coordinates and a cardinal compass point (N, S, E, W).
 - ### Control Instructions:
 Three types of instructions: 'L' (turn left), 'R' (turn right), 'M' (move forward).
 - ### Input Format:
-First line: Upper-right coordinates of the plateau.
-Subsequent lines: Rover information in two lines - position and instruction set.
+- First line: Upper-right coordinates of the plateau.
+- Subsequent lines: Rover information in two lines - position and instruction set.
 - ### Sequential Execution:
 Rovers are processed one after the other. The second rover starts after the first one finishes.
 - ### Output Format:
