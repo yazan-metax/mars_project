@@ -34,4 +34,4 @@ The first line of input is the upper-right coordinates of the plateau, the lower
 
 - [`rovers.c`](rovers.c) - in this file i have my main function, It serves as the entry point for the program, meaning it's the first function that gets executed when the program starts running. Every C program must have a `main` function.
 
-- [`rovers_utils.c`](rovers_utils.c) - in this file i added all the halper functions are needed by the main function in the [`rovers.c] file
+- [`rovers_utils.c`](rovers_utils.c) - in this file i added all the halper functions are needed by the main function in the [`rovers.c`] file
