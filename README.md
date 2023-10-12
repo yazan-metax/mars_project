@@ -22,7 +22,7 @@ The first line of input is the upper-right coordinates of the plateau, the lower
 - Expected Output:
 - 1 3 N
 - 5 1 E
-# keynotes to help understand this project.
+# keynotes✏️ to help understand this project.
 - ### roblem Description:
 NASA is deploying robotic rovers on a rectangular plateau on Mars.
 Rovers need to be navigated using a series of instructions to capture the surrounding terrain.
@@ -32,6 +32,13 @@ The plateau is defined by upper-right coordinates. Lower-left coordinates are as
 A rover's position is represented by (x, y) coordinates and a cardinal compass point (N, S, E, W).
 - ### Control Instructions:
 Three types of instructions: 'L' (turn left), 'R' (turn right), 'M' (move forward).
+- ### Input Format:
+First line: Upper-right coordinates of the plateau.
+Subsequent lines: Rover information in two lines - position and instruction set.
+- ### Sequential Execution:
+Rovers are processed one after the other. The second rover starts after the first one finishes.
+- ### Output Format:
+Final coordinates and heading of each rover after executing instructions.
 # the file structure for this project will be as following:
 ### .c files 
 - where all our c functions will be written in.
