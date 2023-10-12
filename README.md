@@ -23,7 +23,7 @@ The first line of input is the upper-right coordinates of the plateau, the lower
 - 1 3 N
 - 5 1 E
 # keynotes✏️ to help understand this project.
-- ### roblem Description:
+- ### problem Description:
 NASA is deploying robotic rovers on a rectangular plateau on Mars.
 Rovers need to be navigated using a series of instructions to capture the surrounding terrain.
 The plateau is represented as a grid, and each rover has a position and heading.
