@@ -22,3 +22,10 @@ The first line of input is the upper-right coordinates of the plateau, the lower
 - Expected Output:
 - 1 3 N
 - 5 1 E
+
+# the file structure for this project will be as following:
+### .c files 
+- where all our c functions will be written in.
+### .h (header file)
+- the header file is important to provide access to various functions from any file that the header is included in,that means we will not over write the function that we want to use in every file that doesn't include that specific function.
+- we can include all the headers that we will be using in our program in the .h file instead of including them in every file that our program has.
