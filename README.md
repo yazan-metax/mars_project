@@ -31,14 +31,14 @@ The plateau is represented as a grid, and each rover has a position and heading.
 - The plateau is defined by upper-right coordinates. Lower-left coordinates are assumed to be (0,0).
 - A rover's position is represented by (x, y) coordinates and a cardinal compass point (N, S, E, W).
 - ### Control Instructions:
-Three types of instructions: 'L' (turn left), 'R' (turn right), 'M' (move forward).
+- Three types of instructions: 'L' (turn left), 'R' (turn right), 'M' (move forward).
 - ### Input Format:
 - First line: Upper-right coordinates of the plateau.
 - Subsequent lines: Rover information in two lines - position and instruction set.
 - ### Sequential Execution:
 Rovers are processed one after the other. The second rover starts after the first one finishes.
 - ### Output Format:
-Final coordinates and heading of each rover after executing instructions.
+- Final coordinates and heading of each rover after executing instructions.
 # the file structure for this project will be as following:
 ### .c files 
 - where all our c functions will be written in.
