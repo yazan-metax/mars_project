@@ -12,8 +12,7 @@ typedef struct ROVER
 	char	orientation;
 }			Rover;
 
-int			check_input(int i, int num, Rover *rovers);
-int			convert_to_uppercase_char(int c);
+int		convert_to_uppercase_char(int c);
 void		convert_to_uppercase(char *inst);
 void		processInstructions(int x, int y, Rover *rovers, char *instructions,
 				int i);
