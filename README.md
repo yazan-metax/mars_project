@@ -60,7 +60,7 @@ The plateau is represented as a grid, and each rover has a position and heading.
 to compile this program you can use `C` compiler commands like `cc` or `gcc`
 - gcc [`rovers.c`](rovers.c) [`rovers_utils.c`](rovers_utils.c)
 - then run the default executable file:
-./a.out
+- ./a.out
 
 ## hope you find this project helpful 🙂:)
 
