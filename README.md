@@ -29,3 +29,7 @@ The first line of input is the upper-right coordinates of the plateau, the lower
 ### .h (header file)
 - the header file is important to provide access to various functions from any file that the header is included in,that means we will not over write the function that we want to use in every file that doesn't include that specific function.
 - we can include all the headers that we will be using in our program in the .h file instead of including them in every file that our program has.
+
+# project files
+
+- [`rovers.c`](rovers.c) - in this file i have my main function, It serves as the entry point for the program, meaning it's the first function that gets executed when the program starts running. Every C program must have a `main` function.
