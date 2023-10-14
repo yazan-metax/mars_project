@@ -54,7 +54,7 @@ The plateau is represented as a grid, and each rover has a position and heading.
 - [`rovers.h`](rovers.h) - this file has all the headers and the typedef structure that are necessary for the program to work.
 
 ## note📝 :
-- in case the orientation and the instructions are given to the rover are lowcase letters, i added 2 functions in [`rovers_utils.c`](rovers_utils.c) file, that help to covert them into uppercase letter before calling the `processInstructions()` function to process them.
+- in case the orientation and the instructions are given to the rover are lowcase letters, i added 2 functions in [`rovers_utils.c`](rovers_utils.c) file, that help to convert them into uppercase letter before calling the `processInstructions()` function to process them.
 
 ## compilation😎.
 to compile this program you can use `C` compiler commands like `cc` or `gcc`
